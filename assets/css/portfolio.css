@@ -1,0 +1,16 @@
+#header {
+    background-color: #ffffff;
+    border-color: black;
+    border-style: solid;
+}
+
+#header h1 {
+    background-color: yellow;
+    display: inline-block;
+}
+
+#header a {
+    float: right;
+    display: inline;
+    margin: 10px;
+}
