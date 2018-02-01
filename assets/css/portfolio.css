@@ -1,3 +1,7 @@
+body {
+    background-image: -o-linear-gradient()
+}
+
 #header {
     background-color: #ffffff;
     border-color: black;
@@ -5,7 +9,6 @@
 }
 
 #header h1 {
-    background-color: yellow;
     display: inline-block;
 }
 
@@ -13,4 +16,31 @@
     float: right;
     display: inline;
     margin: 10px;
+}
+
+#connect {}
+
+#connect .socialIcon {
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+#right {
+    width: 270px;
+    position:
+}
+
+#left {
+    width: 650px;
+}
+
+#myPhoto {
+    height: 25%;
+    width: 25%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
