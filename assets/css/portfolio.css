@@ -1,15 +1,24 @@
 body {
-    background-image: -o-linear-gradient()
+    background-color: lightblue;
+    /* width: 960px; */
+    /* position: relative; */
+    /* text-align: center; */
 }
 
 #header {
     background-color: #ffffff;
     border-color: black;
-    border-style: solid;
+    /* border-style: solid; */
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 10px;
 }
 
 #header h1 {
     display: inline-block;
+    margin-left: 100px;
+    background-color: lightblue;
+    height: 50px;
 }
 
 #header a {
@@ -18,23 +27,64 @@ body {
     margin: 10px;
 }
 
-#connect {}
+#EntireContentArea {
+    width: 960px;
+    display: inline-block;
+    /* background-color: red; */
+    align-content: center;
+    margin-left: 275px;
+}
+
+#mainSectionContent {
+    /* margin-right: 0px; */
+    /* margin-left: 50px; */
+    /* padding: 100px; */
+    width: 650px;
+    border: 2px;
+    float: left;
+    /* background-color: yellow; */
+    display: inline-block;
+    text-align: justify;
+}
+
+#aboutMe {
+    /* width: 650px; */
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+#sideBar {
+    display: inline-block;
+    /* position: relative; */
+    float: right;
+    background-color: white;
+    width: 270px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 200px; */
+    /* margin-left: 40px; */
+    text-align: center;
+    margin-top: 35px;
+}
+
+#connect {
+    /* float: right; */
+    position: relative;
+    /* position: top; */
+    /* position: right; */
+    /* margin-bottom: 100px; */
+    top: 0%;
+    right: 0;
+    margin-top: 10px;
+}
 
 #connect .socialIcon {
     height: 50px;
     width: 50px;
-    border-style: solid;
+    /* border-style: solid; */
     border-width: 2px;
-    border-color: black;
-}
-
-#right {
-    width: 270px;
-    position:
-}
-
-#left {
-    width: 650px;
+    /* border-color: black; */
+    align-items: center;
 }
 
 #myPhoto {
@@ -43,4 +93,16 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    display: inline;
+}
+
+#footer {
+    background-color: gray;
+    text-align: center;
+    height: 50px;
+    /* position: bottom; */
+}
+
+#footer h5 {
+    margin: auto 0px;
 }
