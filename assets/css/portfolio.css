@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: lavender;
     /* width: 960px; */
     /* position: relative; */
     /* text-align: center; */
@@ -8,23 +8,48 @@ body {
 #header {
     background-color: #ffffff;
     border-color: black;
+    margin: 0;
     /* border-style: solid; */
     width: 100%;
-    margin-bottom: 25px;
-    padding: 10px;
+    /* margin-bottom: 25px; */
+    /* padding: 10px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 75px;
+    border-bottom: solid 2px #cccccc;
 }
 
-#header h1 {
-    display: inline-block;
+#name {
+    color: white;
+    background: #4aaaa5;
+    /* display: inline-block; */
     margin-left: 100px;
-    background-color: lightblue;
-    height: 50px;
+    margin-right: 500px;
+    margin-top: 0px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* height: 75px; */
+    float: left;
+    /* vertical-align: middle; */
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #header a {
     float: right;
     display: inline;
-    margin: 10px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+    padding-top: 28px;
+}
+
+a {
+    text-decoration: none;
 }
 
 #EntireContentArea {
@@ -40,10 +65,10 @@ body {
     /* margin-left: 50px; */
     /* padding: 100px; */
     width: 650px;
-    border: 2px;
+    /* border: solid 2px black; */
     float: left;
     /* background-color: yellow; */
-    display: inline-block;
+    /* display: inline-block; */
     text-align: justify;
 }
 
@@ -52,13 +77,27 @@ body {
     background-color: white;
     padding: 25px;
     margin-top: 25px;
+    margin-bottom: 100px;
+    border: solid 1px black;
+}
+
+#aboutMe h1 {
+    color: #4aaaa5;
+    margin-left: 30px;
+    font-size: 35px;
+}
+
+hr {
+    width: 90%;
+    border-style: solid;
+    border-color: #666666;
 }
 
 #sideBar {
     display: inline-block;
     /* position: relative; */
     float: right;
-    background-color: white;
+    /* background-color: white; */
     width: 270px;
     /* margin-top: 50px; */
     /* margin-bottom: 200px; */
@@ -68,6 +107,10 @@ body {
 }
 
 #connect {
+    background: #ffffff;
+    width: 270px;
+    padding: 20px 0px 20px 0px;
+    border: solid gray 1px;
     /* float: right; */
     position: relative;
     /* position: top; */
@@ -76,6 +119,11 @@ body {
     top: 0%;
     right: 0;
     margin-top: 10px;
+}
+
+#connect h2 {
+    color: #4aaaa5;
+    margin-bottom: 15px;
 }
 
 #connect .socialIcon {
@@ -88,21 +136,66 @@ body {
 }
 
 #myPhoto {
-    height: 25%;
-    width: 25%;
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin: 15px 20px 15px 15px;
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    display: inline;
+    /* display: inline; */
 }
 
 #footer {
     background-color: gray;
     text-align: center;
-    height: 50px;
+    height: 75px;
+    padding-top: 30px;
     /* position: bottom; */
 }
 
 #footer h5 {
     margin: auto 0px;
+}
+
+#form {
+    background-color: white;
+    height: 300px;
+}
+
+#portfolio {
+    background-color: white;
+    width: 650px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 275px;
+    border: solid 1px gray;
+}
+
+#portfolio img {
+    height: 250px;
+    width: 250px;
+    /* position: absolute; */
+    /* display: inline-block; */
+}
+
+.icon {
+    /* float: left; */
+    /* padding: 10px; */
+    display: inline-block;
+}
+
+#form {
+    margin-top: 50px;
+    border: solid 1px gray;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+#message {
+    height: 150px;
+    width: 97%;
 }
